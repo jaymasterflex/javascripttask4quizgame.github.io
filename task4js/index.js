@@ -103,11 +103,11 @@
     const resultsContainer = document.getElementById('results');
     const submitButton = document.getElementById('submit');
     const myQuestions = [
-        {question: "who invented Javascript?",
+        {question: "which of the following is not a reserved word in javascript?",
         answers: {
-            a: "Phileo",
-            b: "Jeff",
-            c: "Brendan Eich",
+            a: "interface",
+            b: "throws",
+            c: "program",
         }, 
         correctAnswer: "c"
     },
@@ -132,9 +132,9 @@
     {
         question: "what is the correct syntax for reffering to an external javascript file?",
         answers: {
-            a: "script src=xxx.js",
-            b: "script href=xxx.js",
-            c: "script name=xxx.js",
+            a: "script src='xxx.js'",
+            b: "script href='xxx.js'",
+            c: "script name='xxx.js'",
         }, 
         correctAnswer: "a"
     },
